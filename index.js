@@ -117,6 +117,7 @@ app.post('/checkemail', async (req, res) => {
 }
   )
 //Server
+//
 app.get('/appcheck', (req, res) => {
   console.log('App is running');
   res.status(200).json({ message: 'App is running' });
